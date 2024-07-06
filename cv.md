@@ -28,9 +28,11 @@ I always try to keep abreast of new technologies and I am able to communicate ef
 <hr/>
 ### Code examples:
 **Peak array index KATA from CODEWARS:** *Complete the solution so that it returns true if the first argument(string) passed in ends with the 2nd argument (also a string).* <br/><br/>
-```function solution(str, ending) { <br/>
-  if(ending.length == 0) { <br/>
-    return true <br/>
-  } <br/>
-  return str.substr(-(ending.length)) == ending <br/>
-}```
+```javascript
+function solution(str, ending) { 
+  if(ending.length == 0) { 
+    return true 
+  } 
+  return str.substr(-(ending.length)) == ending 
+}
+```
