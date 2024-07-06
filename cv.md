@@ -36,3 +36,13 @@ function solution(str, ending) {
   return str.substr(-(ending.length)) == ending 
 }
 ```
+<hr/>
+### Education:
+Northwestern State Correspondence Technical University, St. Petersburg
+*Management and computer science in technical systems, Software Engineer*
+<hr/>
+### Languages:
+* Russian - Native
+* English -Intermediate 
+* French - Basic
+* Japan - Basic
