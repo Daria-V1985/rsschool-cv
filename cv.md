@@ -38,7 +38,7 @@ function solution(str, ending) {
 ```
 <hr/>
 ### Education:
-Northwestern State Correspondence Technical University, St. Petersburg
+Northwestern State Correspondence Technical University, St. Petersburg. <br/>
 *Management and computer science in technical systems, Software Engineer*
 <hr/>
 ### Languages:
