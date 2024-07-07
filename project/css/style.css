@@ -14,23 +14,184 @@ a {
   text-decoration: none;
 }
 
+ul li {
+  list-style: none;
+}
+
+@font-face {
+  font-family: raleway-c;
+  src: url("fonts/raleway-regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 .body {
-  font-family: "Poppins", Arial, sans-serif;
+  font-family: raleway-c;
   font-size: 16px;
   line-height: 30px;
   font-weight: 400;
-  color: black;
+  color: rgb(57, 57, 57);
 }
 
 .container {
   max-width: 1200px;
+  min-height: 100%;
+  margin: 0 auto;
+}
+
+.title {
+  text-transform: uppercase;
 }
 
 .header {
+  border-bottom: 1px solid rgb(57, 57, 57);
+  margin-bottom: 35px;
 }
-.header-container {
+
+.header__container {
+  width: 100%;
+  height: 50px;
 }
-.menu {
-}
+
 .menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 15px 0;
+}
+
+.menu-list__item {
+  transition: 0.5s;
+}
+
+.menu-list__item:hover {
+  transform: scale(1.2);
+  text-decoration: underline;
+}
+
+.menu-list__link {
+  font-size: 18px;
+  color: rgb(57, 57, 57);
+}
+
+.columns {
+  display: flex;
+}
+
+.left-column {
+  width: 40%;
+  background-color: #471d6237;
+  padding: 0 50px 0 70px;
+}
+
+.left-column__avatar {
+  display: flex;
+  height: 250px;
+  justify-content: center;
+  width: 250px;
+  margin: 50px auto;
+  position: relative;
+  z-index: 2;
+}
+
+.left-column__foto {
+  border-radius: 50%;
+  width: 100%;
+  object-fit: cover;
+  border: 10px solid white;
+}
+
+.left-column__contacts,
+.left-column__education,
+.left-column__languages {
+  margin-top: 35px;
+}
+
+.contacts__title,
+.education__title,
+.languages__title {
+  padding-bottom: 20px;
+}
+
+.contacts__list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.contacts__img {
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.contacts__link {
+  font-size: 17px;
+  color: rgb(57, 57, 57);
+}
+
+.contacts__text {
+  transition: 0.5s;
+}
+
+.contacts__text:hover {
+  transform: scale(1.1);
+}
+
+.contacts__adress {
+  font-size: 17px;
+  color: rgb(57, 57, 57);
+}
+
+.education__text-title {
+  font-size: 17px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.education__text-subtitle {
+  font-size: 15px;
+  font-style: italic;
+}
+
+.languages__list-item {
+  font-size: 18px;
+  font-style: italic;
+  list-style: disc;
+  margin: 0 0 10px 15px;
+}
+
+.columns__right-column {
+  margin-left: 60px;
+}
+
+.name {
+  margin: 143px 80px 143px 0;
+}
+
+.name__title {
+  text-transform: uppercase;
+  color: #471d62;
+  padding-bottom: 5px;
+}
+
+.name__text {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.about-me__title,
+.skills__title,
+.code__title {
+  background-color: #471d6237;
+  margin: 30px 0 20px 0;
+  padding: 10px;
+}
+
+.about-me__text {
+  font-size: 17px;
+  line-height: 20px;
 }
