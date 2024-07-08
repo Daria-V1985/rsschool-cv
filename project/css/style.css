@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  min-width: 375px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+@font-face {
+  font-family: raleway-c;
+  src: url("fonts/raleway-regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: raleway-c;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  color: rgb(57, 57, 57);
+}
+
+.container {
+  max-width: 1200px;
+  min-height: 100%;
+  margin: 0 auto;
+}
+
+.title {
+  text-transform: uppercase;
+  color: #471d62;
+}
+
+.header {
+  border-bottom: 1px solid rgb(57, 57, 57);
+  margin-bottom: 35px;
+}
+
+.header__container {
+  width: 100%;
+  height: 50px;
+}
+
+.menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 15px 0;
+}
+
+.menu-list__item {
+  transition: 0.5s;
+}
+
+.menu-list__item:hover {
+  transform: scale(1.2);
+  text-decoration: underline;
+}
+
+.menu-list__link {
+  color: rgb(57, 57, 57);
+}
+
+.columns {
+  display: flex;
+}
+
+.left-column {
+  width: 40%;
+  background-color: #471d6237;
+  padding: 0 50px 0 70px;
+}
+
+.left-column__avatar {
+  display: flex;
+  height: 250px;
+  justify-content: center;
+  width: 250px;
+  margin: 50px auto;
+  position: relative;
+  z-index: 2;
+}
+
+.left-column__foto {
+  border-radius: 50%;
+  width: 100%;
+  object-fit: cover;
+  border: 10px solid white;
+}
+
+.left-column__contacts,
+.left-column__education,
+.left-column__languages {
+  margin-top: 35px;
+}
+
+.contacts__title,
+.education__title,
+.languages__title {
+  padding-bottom: 20px;
+}
+
+.contacts__list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.contacts__img {
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.contacts__link {
+  font-size: 17px;
+  color: rgb(57, 57, 57);
+}
+
+.contacts__text {
+  transition: 0.5s;
+}
+
+.contacts__text:hover {
+  transform: scale(1.1);
+}
+
+.contacts__adress {
+  font-size: 17px;
+}
+
+.education__text-title {
+  font-size: 17px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.education__text-subtitle {
+  font-size: 15px;
+  font-style: italic;
+}
+
+.languages__list-item {
+  font-size: 17px;
+  font-style: italic;
+  list-style: disc;
+  margin: 0 0 10px 15px;
+}
+
+.columns__right-column {
+  margin-left: 50px;
+}
+
+.name {
+  margin: 20px 80px 50px 0;
+}
+
+.name__title {
+  text-transform: uppercase;
+  color: #471d62;
+  padding-bottom: 5px;
+}
+
+.name__text {
+  font-style: italic;
+}
+
+.about-me__title,
+.skills__title,
+.code__title,
+.projects__title {
+  background-color: #471d6237;
+  margin: 30px 0 20px 0;
+  padding: 10px;
+}
+
+.about-me__text {
+  line-height: 22px;
+  margin-left: 5px;
+}
+
+.skills__list {
+  margin-left: 20px;
+}
+
+.skills__list-item {
+  line-height: 24px;
+  font-style: italic;
+  list-style: disc;
+}
+
+.code__task,
+.code__blockquote {
+  margin-left: 5px;
+}
+
+.code__blockquote {
+  background-color: #f1f1f1;
+  margin: 15px 0;
+  padding: 15px 15px;
+  border-radius: 20px;
+}
+
+.projects__list {
+  display: grid;
+  grid-template-columns: auto 2fr;
+  gap: 20px;
+}
+
+.projects__list-item {
+  border: 2px solid #471d6237;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.projects__link {
+  cursor: pointer;
+}
+
+.projects__img {
+  width: 360px;
+}
+
+.footer {
+  border-top: 1px solid #000;
+  margin-top: 35px;
+}
+
+.footer__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__github {
+  color: rgb(57, 57, 57);
+  transition: 0.5s;
+}
+
+.footer__github:hover {
+  transform: scale(1.2);
+}
