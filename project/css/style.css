@@ -26,10 +26,10 @@ ul li {
   font-display: swap;
 }
 
-.body {
+body {
   font-family: raleway-c;
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 18px;
+  line-height: 22px;
   font-weight: 400;
   color: rgb(57, 57, 57);
 }
@@ -42,6 +42,7 @@ ul li {
 
 .title {
   text-transform: uppercase;
+  color: #471d62;
 }
 
 .header {
@@ -71,7 +72,6 @@ ul li {
 }
 
 .menu-list__link {
-  font-size: 18px;
   color: rgb(57, 57, 57);
 }
 
@@ -143,7 +143,6 @@ ul li {
 
 .contacts__adress {
   font-size: 17px;
-  color: rgb(57, 57, 57);
 }
 
 .education__text-title {
@@ -158,18 +157,18 @@ ul li {
 }
 
 .languages__list-item {
-  font-size: 18px;
+  font-size: 17px;
   font-style: italic;
   list-style: disc;
   margin: 0 0 10px 15px;
 }
 
 .columns__right-column {
-  margin-left: 60px;
+  margin-left: 50px;
 }
 
 .name {
-  margin: 143px 80px 143px 0;
+  margin: 20px 80px 50px 0;
 }
 
 .name__title {
@@ -179,19 +178,82 @@ ul li {
 }
 
 .name__text {
-  font-size: 18px;
   font-style: italic;
 }
 
 .about-me__title,
 .skills__title,
-.code__title {
+.code__title,
+.projects__title {
   background-color: #471d6237;
   margin: 30px 0 20px 0;
   padding: 10px;
 }
 
 .about-me__text {
-  font-size: 17px;
-  line-height: 20px;
+  line-height: 22px;
+  margin-left: 5px;
+}
+
+.skills__list {
+  margin-left: 20px;
+}
+
+.skills__list-item {
+  line-height: 24px;
+  font-style: italic;
+  list-style: disc;
+}
+
+.code__task,
+.code__blockquote {
+  margin-left: 5px;
+}
+
+.code__blockquote {
+  background-color: #f1f1f1;
+  margin: 15px 0;
+  padding: 15px 15px;
+  border-radius: 20px;
+}
+
+.projects__list {
+  display: grid;
+  grid-template-columns: auto 2fr;
+  gap: 20px;
+}
+
+.projects__list-item {
+  border: 2px solid #471d6237;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.projects__link {
+  cursor: pointer;
+}
+
+.projects__img {
+  width: 360px;
+}
+
+.footer {
+  border-top: 1px solid #000;
+  margin-top: 35px;
+}
+
+.footer__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__github {
+  color: rgb(57, 57, 57);
+  transition: 0.5s;
+}
+
+.footer__github:hover {
+  transform: scale(1.2);
 }
