@@ -27,7 +27,8 @@ I always try to keep abreast of new technologies and I am able to communicate ef
 * VSCode
 <hr/>
 ### Code examples:
-**Peak array index KATA from CODEWARS:** *Complete the solution so that it returns true if the first argument(string) passed in ends with the 2nd argument (also a string).* <br/><br/>
+**You probably know the "like" system from Facebook and other pages. People can "like" blog posts, pictures or other items. We want to create the text that should be displayed next to such an item.<br>
+Implement the function which takes an array containing the names of people that like an item.* <br/><br/>
 ```javascript
 function likes(names) {
   const like = names.length;
