@@ -26,3 +26,35 @@ I always try to keep abreast of new technologies and I am able to communicate ef
 * Photoshop/Figma
 * VSCode
 <hr/>
+### Code examples:
+**Peak array index KATA from CODEWARS:** *Complete the solution so that it returns true if the first argument(string) passed in ends with the 2nd argument (also a string).* <br/><br/>
+```javascript
+function likes(names) {
+  const like = names.length;
+  
+  if(!like) {
+    return 'no one likes this';
+  } else if (like === 1) {
+      return `${names[0]} likes this`;
+  } else if (like === 2) {
+      return `${names[0]} and ${names[1]} like this`;
+  } else if (like === 3) {
+      return `${names[0]}, ${names[1]} and ${names[2]} like this`;
+  } else if (like > 3) {
+      return `${names[0]}, ${names[1]} and ${like - 2} others like this`;
+  } else {
+    return 0;
+  }
+}
+```
+<hr/>
+### Education:
+Northwestern State Correspondence Technical University, St. Petersburg. <br/>
+*Management and computer science in technical systems, Software Engineer*
+<hr/>
+### Languages:
+* Russian - Native
+* English -Intermediate 
+* French - Basic
+* Japan - Basic
+<br><br><br>
