@@ -10,11 +10,10 @@
 * *Site:* [Darfolio](https://daria-v1985.github.io/DarFolio/)
 <hr/>
 ### About Myself:
-I like to solve interesting problems: *develop websites* and *create designs* for different purposes.<br/>
-I have written a little in *Angular* and *VueJS*.<br/>
-I always try to keep abreast of new technologies and I am able to communicate effectively, solve problems, adapt to new situations, technologies and requirements.
+I'm a frontend developer who loves creating cool and user-friendly interfaces. I'm skilled in HTML5, CSS3 (BEM, SCSS, animations), JavaScript, and TypeScript. I work with Vue 3 and Vue CLI to build fast and convenient apps. I use GitHub for team collaboration and have experience with Photoshop and Figma to make sure the design always looks great. I strive to write clean code and create interfaces that users really enjoy.
 <hr/>
 ### My Skills:
+* VSCode
 * HTML5
 * CSS3
   * BEM
@@ -22,9 +21,9 @@ I always try to keep abreast of new technologies and I am able to communicate ef
   * Animations
 * Javascript
 * GitHub
-* Gulp/Webpack
 * Photoshop/Figma
-* VSCode
+* Vue 3/Vue CLI
+* Typescript
 <hr/>
 ### Code examples:
 **You probably know the "like" system from Facebook and other pages. People can "like" blog posts, pictures or other items. We want to create the text that should be displayed next to such an item.<br>
@@ -50,7 +49,7 @@ function likes(names) {
 ```
 <hr/>
 ### Education:
-Northwestern State Correspondence Technical University, St. Petersburg. <br/>
+##Northwestern State Correspondence Technical University, St. Petersburg. <br/>
 *Management and computer science in technical systems, Software Engineer*
 <hr/>
 ### Languages:
