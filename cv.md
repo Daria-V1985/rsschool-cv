@@ -49,8 +49,10 @@ function likes(names) {
 ```
 <hr/>
 ### Education:
-##Northwestern State Correspondence Technical University, St. Petersburg. <br/>
+<br/>
+####Northwestern State Correspondence Technical University, St. Petersburg. <br/>
 *Management and computer science in technical systems, Software Engineer*
+<br/>
 <hr/>
 ### Languages:
 * Russian - Native
