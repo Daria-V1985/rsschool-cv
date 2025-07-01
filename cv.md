@@ -10,7 +10,7 @@
 * *Site:* [Darfolio](https://daria-v1985.github.io/DarFolio/)
 <hr/>
 ### About Myself:
-I'm a frontend developer who loves creating cool and user-friendly interfaces. I'm skilled in HTML5, CSS3 (BEM, SCSS, animations), JavaScript, and TypeScript. I work with Vue 3 and Vue CLI to build fast and convenient apps. I use GitHub for team collaboration and have experience with Photoshop and Figma to make sure the design always looks great. I strive to write clean code and create interfaces that users really enjoy.
+I'm a frontend developer who loves creating cool and user-friendly interfaces. I'm skilled in *HTML5, CSS3 (BEM, SCSS, animations), JavaScript*, and *TypeScript*. I work with *Vue 3* and *Vue CLI* to build fast and convenient apps. I use *GitHub* for team collaboration and have experience with *Photoshop* and *Figma* to make sure the design always looks great. I strive to write clean code and create interfaces that users really enjoy.
 <hr/>
 ### My Skills:
 * VSCode
@@ -22,6 +22,7 @@ I'm a frontend developer who loves creating cool and user-friendly interfaces. I
 * Javascript
 * GitHub
 * Photoshop/Figma
+* API
 * Vue 3/Vue CLI
 * Typescript
 <hr/>
